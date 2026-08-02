@@ -1,0 +1,13 @@
+﻿{
+  "functions": {
+    "dashboard_fixed.py": {
+      "excludeFiles": "{venv/**,data/**,output/**,**/*.pyc,__pycache__/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/dashboard_fixed"
+    }
+  ]
+}

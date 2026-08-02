@@ -1,2 +1,3 @@
-﻿from dashboard_fixed import app
+﻿# Vercel deployment configuration
+from dashboard_fixed import app
 application = app.server

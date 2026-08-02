@@ -6,9 +6,8 @@ dependencies = [
     "dash>=3.0.0",
     "plotly>=6.0.0",
     "pandas>=2.0.0",
-    "numpy>=1.24.0",
-    "gunicorn>=20.1.0"
+    "numpy>=1.24.0"
 ]
 
 [tool.vercel]
-entrypoint = "dashboard_fixed:app"
+entrypoint = "app:application"
